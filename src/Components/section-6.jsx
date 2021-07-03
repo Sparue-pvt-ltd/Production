@@ -49,7 +49,7 @@ const Section6 = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+    emailjs.sendForm("service_q5uywle", "template_mvw0k4p", e.target, "user_8PScY1x7n9ab9JNfMD78A")
       .then((result) => {
           setMailStatus({
             success: true,
@@ -57,6 +57,12 @@ const Section6 = () => {
           })
           NotificationTimeoutTimer();
       }, (error) => {
+        setMailStatus({
+          success: false,
+          fail: true,
+        })
+        NotificationTimeoutTimer();
+      }).catch(()=>{
         setMailStatus({
           success: false,
           fail: true,
