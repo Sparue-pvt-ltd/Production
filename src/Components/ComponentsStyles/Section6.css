@@ -1,0 +1,181 @@
+.contact-info {
+  width: 100%;
+  display: flex;
+
+  background: #dbe6fd;
+}
+
+.left-section {
+  flex-basis: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.left-section p {
+  width: 70%;
+  line-height: 30px;
+  font-weight: 100;
+  text-align: left;
+  color: black;
+  margin: 20px auto;
+}
+
+.right-section {
+  flex-basis: 50%;
+
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.form .form-heading {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.grid-content .form-control {
+  width: 250px;
+  height: 40px;
+  border: none;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.grid-content .Message {
+  width: 400px;
+  grid: 1/-1;
+  align-items: start;
+  height: 100px;
+}
+
+.btn {
+  width: 120px;
+  margin: 20px;
+  position: relative;
+  left: -40%;
+  font-size: 14px;
+  border-radius: 20px;
+  background: #ff7a00;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .contact-info {
+    width: 100%;
+    display: block;
+    background: #dbe6fd;
+  }
+  .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .grid-content {
+    display: block;
+  }
+  .form .form-heading {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.7;
+  }
+  .grid-content .Message {
+    width: 300px;
+  }
+  .btn {
+    width: 120px;
+    margin: 20px;
+    position: relative;
+    left: 0%;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 385px) {
+  .contact-info {
+    width: 100%;
+    display: block;
+    background: #dbe6fd;
+  }
+
+  .grid-content {
+    display: block;
+  }
+  .form .form-heading {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.7;
+  }
+  .grid-content .Message {
+    width: 250px;
+    grid: 1/-1;
+    align-items: start;
+    height: 100px;
+  }
+  .btn {
+    width: 120px;
+    margin: 20px;
+    position: relative;
+    left: 0%;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  .left-section p {
+    width: 70%;
+    line-height: 30px;
+    font-weight: 100;
+    text-align: left;
+    color: black;
+    font-size: 10px;
+    margin: 20px auto;
+  }
+}
+
+/* Message css */
+.successMessage {
+  display: flex;
+  border-radius: 0.3em;
+  margin: 0% 2% 0% 2%;
+  padding: 1% 0 1% 3%;
+  text-align: left;
+  color: white;
+  font-weight: lighter;
+  background-color: rgba(7, 169, 70);
+}
+
+.dangerMessage {
+  display: flex;
+  border-radius: 0.3em;
+  margin: 0% 2% 0% 2%;
+  padding: 1% 0 1% 3%;
+  text-align: left;
+  color: white;
+  font-weight: lighter;
+  background-color: rgba(203, 66, 69);
+}

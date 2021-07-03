@@ -1,0 +1,226 @@
+ <p>
+          Customers are our first priority and we provide some exceptional
+          features that our customer prefers.That 's why our customers never
+          leave us.{" "}
+        </p>{" "}
+      </div>{" "}
+      <div className="grid-container">
+        {" "}
+        {Data.map((item) => {
+          return (
+            <div key={item.key} className={item.id}>
+              <div className="circle">
+                <div className={item.circle}> </div>{" "}
+              </div>{" "}
+              <div className="content">
+                <h4> {item.heading} </h4> <p> {item.content} </p>{" "}
+              </div>{" "}
+            </div>
+          );
+        })}{" "}
+navbar
+
+ // <div className="Navbar">
+    //   <nav>
+    //     <img src={logo} alt="logo" />
+    //     <ul>
+    //       <li>
+    //         <NavLink exact activeClassName="current" to="/">
+    //           {" "}
+    //           Home{" "}
+    //         </NavLink>{" "}
+    //       </li>{" "}
+    //       <li>
+    //         <NavLink exact activeClassName="current" to="/Services">
+    //           {" "}
+    //           Services{" "}
+    //         </NavLink>{" "}
+    //       </li>{" "}
+    //       <li>
+    //         <NavLink exact activeClassName="current" to="/CaseStudy">
+    //           {" "}
+    //           Case Study{" "}
+    //         </NavLink>{" "}
+    //       </li>{" "}
+    //       <li>
+    //         <NavLink exact activeClassName="current" to="/About">
+    //           {" "}
+    //           About us{" "}
+    //         </NavLink>{" "}
+    //       </li>{" "}
+    //     </ul>{" "}
+    //     <button> Contact Us </button>{" "}
+    //   </nav>{" "}
+    // </div>
+
+
+
+
+
+.inner-container p {
+  text-align: left;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  grid-template-columns: repeat(2, 5fr);
+  grid-gap: 20px;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+}
+
+.cricle {
+  flex-basis: 30%;
+}
+
+.circle-1,
+.circle-2,
+.circle-3,
+.circle-4 {
+  width: 50px;
+  margin-left: 20px;
+  height: 50px;
+  background: linear-gradient(blue, violet);
+  border-radius: 50%;
+}
+
+.circle-2 {
+  background: linear-gradient(red, yellow);
+}
+
+.circle-3 {
+  background: linear-gradient(#02aab0, yellow);
+}
+
+.circle-4 {
+  background: linear-gradient(#38ef7d, green);
+}
+
+.content {
+  padding: 10px;
+}
+
+.content h4 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.content p {
+  width: 120%;
+  text-align: left;
+  opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+  .section3 {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  .inner-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .inner-container h3 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .inner-container p {
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 20px;
+    opacity: 0.8;
+  }
+  .grid-container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+  }
+  .grid {
+    margin: 20px;
+  }
+  .content p {
+    width: 100%;
+    text-align: left;
+    opacity: 0.7;
+  }
+}
+
+
+
+<nav className="navbar navbar-expand-lg">
+  <div className="container">
+    <NavLink className="navbar-brand" to="/">
+
+      <img className="Navbar-logo" src={logo} alt="logo" />
+    </NavLink>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class=" fas fa-bars"></span>
+  </button>
+    <div className=" collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul className="navbar-nav mb-2 mb-lg-0">
+        <li className="nav-item">
+          <NavLink
+            exact
+            className="nav-link active"
+            aria-current="page"
+            to="/"
+            activeClassName="current"
+          >
+            Home
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            exact
+            className="nav-link"
+            to="/Services"
+            activeClassName="current"
+          >
+            Services
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            exact
+            className="nav-link"
+            to="/CaseStudy"
+            activeClassName="current"
+          >
+            Case Studies
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            exact
+            className="nav-link"
+            to="/About"
+            activeClassName="current"
+          >
+            About us
+          </NavLink>
+        </li>
+      </ul>
+      <button className='button'>
+      Contact Us
+      </button>
+    </div>
+  </div>
+</nav>

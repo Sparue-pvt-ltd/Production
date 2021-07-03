@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.serviceBanner {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(23, 54, 12, 0.5)),
+    url("https://images.unsplash.com/photo-1551434678-e076c223a692?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGRldmVsb3BlcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.serviceBanner img {
+  width: 100%;
+  position: relative;
+  top: -50%;
+}
+
+.serviceBanner h1 {
+  text-align: left;
+  width: 30%;
+  font-size: 40px;
+  padding: 60px;
+  font-weight: 600;
+  color: white;
+}
+@media (max-width: 800px) {
+  .serviceBanner {
+    width: 100%;
+
+    background-size: cover;
+  }
+  .serviceBanner h1 {
+    width: 80%;
+    font-size: 30px;
+  }
+}
+@media (max-width: 385px) {
+  .serviceBanner {
+    width: 100%;
+    background-size: cover;
+  }
+  .serviceBanner h1 {
+    width: 80%;
+    font-size: 20px;
+  }
+}

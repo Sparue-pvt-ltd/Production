@@ -1,0 +1,353 @@
+@keyframes flipNext {
+  0% {
+    background-image: url("../../images/banner-4.png");
+    background-position: left;
+    -webkit-clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+    clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+  }
+  22% {
+    background-image: url("../../images/banner-4.png");
+    background-position: left;
+    -webkit-clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+    clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+  }
+  27% {
+    background-image: url("../../images/banner-3.png");
+    background-position: 150% 140%;
+    -webkit-clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+    clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+  }
+  47% {
+    background-image: url("../../images/banner-3.png");
+    background-position: 150% 140%;
+    -webkit-clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+    clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+  }
+  52% {
+    background-image: url("../../images/banner-2.png");
+    background-position: left;
+    -webkit-clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+    clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+  }
+  72% {
+    background-image: url("../../images/banner-2.png");
+    background-position: left;
+    -webkit-clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+    clip-path: polygon(
+      0 0,
+      45% 0,
+      23% 100%,
+      24% 100%,
+      40% 100%,
+      32% 68%,
+      25% 100%,
+      0 100%
+    );
+  }
+
+  77% {
+    background-image: url("../../images/banner-1.png");
+    background-position: 150% 140%;
+    -webkit-clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+    clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+  }
+  100% {
+    background-image: url("../../images/banner-1.png");
+    background-position: 150% 140%;
+    -webkit-clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+    clip-path: polygon(
+      100% 0,
+      45% 0,
+      73% 100%,
+      62% 100%,
+      71% 100%,
+      62% 68%,
+      53% 100%,
+      100% 100%
+    );
+  }
+}
+
+@keyframes flip-header-width {
+  100% {
+    left: 5%;
+  }
+  77% {
+    left: 5%;
+  }
+  72% {
+    left: 50%;
+  }
+  52% {
+    left: 50%;
+  }
+  47% {
+    left: 5%;
+  }
+  27% {
+    left: 5%;
+  }
+  22% {
+    left: 50%;
+  }
+  0% {
+    left: 50%;
+  }
+}
+
+@keyframes flip-text-change {
+  0% {
+    content: "Cloud Infrastructure for Security in cloud-Aws";
+  }
+  22% {
+    content: "Cloud Infrastructure for Security in cloud-Aws";
+  }
+  27% {
+    content: "Cloud Infrastrusture for Managed cloud services";
+  }
+  47% {
+    content: "Cloud Infrastrusture for Managed cloud services";
+  }
+  52% {
+    content: "Cloud Infrastructure for AWS Devops";
+  }
+  72% {
+    content: "Cloud Infrastructure for AWS Devops";
+  }
+  77% {
+    content: "Cloud Infrastrusture for Aws Database migrations";
+  }
+  100% {
+    content: "Cloud Infrastrusture for Aws Database migrations";
+  }
+}
+
+.flip-header-heading::before {
+  font-size: 40px;
+  content: "Cloud Infrastructure for AWS Devops";
+  animation-name: flip-text-change;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.header-flip-next {
+  background-image: url("../../images/banner-4.png");
+  background-size: 70% 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 35em;
+  clip-path: polygon(
+    0 0,
+    45% 0,
+    23% 100%,
+    24% 100%,
+    40% 100%,
+    32% 68%,
+    25% 100%,
+    0 100%
+  );
+  animation-name: flipNext;
+  animation-timing-function: ease-in-out;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.flip-header-container {
+  position: absolute;
+  max-width: 29em;
+  top: 25%;
+  animation-name: flip-header-width;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.flip-header-sub {
+  padding-left: 5%;
+  font-size: small;
+  text-align: left;
+}
+
+.btn-flip-header {
+  background-color: orange;
+  color: white;
+  font-size: 1em;
+  border-radius: 0.2em;
+  border-width: 0;
+  min-width: 110px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.flip-header-link {
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+}
+
+@media (max-width: 900px) {
+  .flip-header-heading::before {
+    font-size: small;
+    font-weight: bolder;
+  }
+  .flip-header-container {
+    max-width: 40%;
+    top: 25%;
+  }
+
+  .flip-header-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 0.6em;
+  }
+
+  .btn-flip-header {
+    font-size: 0.7em;
+    min-width: 70px;
+    padding: 0px;
+    height: 30px;
+  }
+
+  .header-flip-next {
+    background-size: 80% 100%;
+    height: 16em;
+  }
+  .flip-header-sub {
+    font-size: xx-small;
+    text-align: left;
+  }
+}

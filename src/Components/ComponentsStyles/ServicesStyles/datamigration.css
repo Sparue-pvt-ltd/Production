@@ -1,0 +1,15 @@
+.grid-data {
+  grid-template-columns: 5fr;
+}
+.Grid-container {
+  padding: 0 5% 0 5%;
+}
+
+@media (max-width: 900px) {
+  .Grid-container {
+    padding: 0;
+  }
+  .Grid-overview {
+    padding: 0 5% 0 5%;
+  }
+}

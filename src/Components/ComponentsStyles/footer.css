@@ -1,0 +1,167 @@
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #181c28;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.heading4 {
+  text-align: left;
+  font-size: 18px;
+}
+
+.footer-1 {
+  width: 100%;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item-1 img {
+  width: 120px;
+}
+
+.social-icons {
+  display: flex;
+  width: 100px;
+  margin: 1px auto;
+}
+
+.fab {
+  width: 100px;
+}
+
+.nav-list {
+  opacity: 0.6;
+}
+.sub-footer {
+  padding: 0;
+}
+
+.footer-item {
+  display: block;
+  margin: 10px auto 10px auto;
+  text-align: left;
+}
+
+.footer-link {
+  color: white;
+  font-weight: 100;
+
+  text-align: left;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: white;
+}
+
+.Address-bar {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+}
+.address {
+  max-width: 100%;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: left;
+  opacity: 0.5;
+}
+.mail {
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+  opacity: 0.5;
+}
+@media (max-width: 800px) {
+  .footer {
+    width: 100%;
+    padding: 10px;
+  }
+  .item-1 img {
+    width: 70px;
+  }
+
+  .heading4 {
+    text-align: left;
+    font-size: 14px;
+  }
+  .footer-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    margin:40px auto;
+  }
+  .fab{
+    font-size: 10px;
+  }
+  .footer-item {
+    display: block;
+    margin: 1px auto;
+    text-align: left;
+  }
+  .footer-link{
+    font-size: 8px;
+  }
+  .Address-bar {
+    width: 100%;
+    padding: 1px
+  }
+  .address {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .mail {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 20px;
+  }
+}
+@media (max-width: 385px) {
+  .footer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .footer-1{
+    width:100%;
+  }
+  .Address-bar {
+    width: 100%;
+    padding: 1px
+  }
+
+  .footer-item {
+    display: block;
+    margin: 1px auto;
+    text-align: left;
+  }
+  .address {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 200;
+
+  }
+  .footer-link{
+    font-size: 8px;
+  }
+  .mail {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 200;
+
+  }
+
+  .item-1 img {
+    width: 50px;
+  }
+}

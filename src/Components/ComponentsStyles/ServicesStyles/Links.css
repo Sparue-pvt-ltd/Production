@@ -1,0 +1,18 @@
+.nav-link-text {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: start;
+}
+
+.grid-container {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .nav-link-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,83 @@
+.Client-section {
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+.section-5 {
+  display: flex;
+  height: 60vh;
+  margin-top: 10px;
+}
+
+.left-portion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-words {
+  width: 50%;
+  word-break: 20px;
+  text-align: left;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 100;
+  opacity: 0.6;
+}
+
+/* denny-46992fa2603b3da7082eca689dcb1423 1 */
+
+.right-portion {
+  overflow: hidden;
+}
+
+.right-portion img {
+  width: 400px;
+}
+
+@media (max-width: 800px) {
+  .section-5 {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .client-words {
+    width: 100%;
+    word-break: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 100;
+    opacity: 0.6;
+  }
+  .left-portion {
+    display: block;
+    width: 100%;
+  }
+  .right-portion img {
+    width: 200px;
+  }
+}
+@media (max-width: 385px) {
+  .section-5 {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .client-words {
+    width: 100%;
+    word-break: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+
+  }
+  .left-portion {
+    display: block;
+    width: 100%;
+  }
+  .right-portion img {
+    width: 100px;
+  }
+}
